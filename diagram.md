@@ -1,3 +1,4 @@
+```mermaid
 flowchart LR
   %% ==== EDGE / INGRESS ====
   subgraph EDGE[Edge / Ingress]
@@ -74,3 +75,4 @@ flowchart LR
 
   %% Connectivity hints
   K8S ---|PrivateLink/VPC Peering| DATA
+```
